@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+   background: linear-gradient(135deg, #1e1e2f, #2c094e, #5a189a);
+   color: #f5f5f5;
+}
+
+
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+
+.project-card {
+  background: rgba(250, 240, 240, 0.1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.4);
+}
+.project-card img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.project-card a {
+  color: #0077cc;
+  text-decoration: none;
+
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+  transform: scale(1.06);
+}
+
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#skills li {
+  background: #0077cc;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a:link{
+  color:#e011ac;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a:visted {
+  text-decoration: underline;
+  color:#fff;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color:#2b9beb;
+}
+
+.footer-links {
+  margin: 10px 0;
+}
+
+
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
