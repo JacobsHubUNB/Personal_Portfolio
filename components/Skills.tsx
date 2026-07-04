@@ -65,7 +65,7 @@ const GROUPS: { title: string; items: string[] }[] = [
 
 export function Skills() {
   return (
-    <Section id="skills" num="03" title="Skills">
+    <Section id="skills" num="04" title="Skills">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         {GROUPS.map((group, i) => (
           <Reveal key={group.title} delay={i * 0.05}>

@@ -6,7 +6,7 @@ export function Projects() {
   return (
     <Section
       id="projects"
-      num="02"
+      num="03"
       title="Projects"
       subtitle="Hover a card to preview. Click through for live demos & source."
     >

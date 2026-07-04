@@ -28,7 +28,7 @@ const ITEMS: Item[] = [
 
 export function Experience() {
   return (
-    <Section id="experience" num="04" title="Experience">
+    <Section id="experience" num="02" title="Experience">
       <ol className="flex flex-col gap-7">
         {ITEMS.map((item, i) => (
           <Reveal key={item.role} delay={i * 0.06}>
