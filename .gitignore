@@ -1,0 +1,84 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+next-env.d.ts
+
+# Production build
+build/
+dist/
+
+# Raw source recordings — kept locally, never committed or deployed
+_raw/
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug / logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel
+
+# Claude Code local tool config (machine-specific paths, not project code)
+.claude/
+
+# Personal documents — keep cover letters and resume drafts out of public repo.
+# Only the CV at public/S26Resumev3.pdf (linked from the site) should be committed.
+Cover_Letter.pdf
+Cover Letter Format.docx
+Emmanuel_Mdluli_CoverLetter_DayRoss.pdf
+JDI_Cover_Letter.pdf
+JDI_Cover_Letter.docx
+JDI_Cover_Letter_v2.docx
+RBC_Cover_Letter.pdf
+RBC_Cover_Letter.docx
+ReaserchNB_Cover_Letter.pdf
+VeroSource_Cover_Letter.pdf
+Job_Inquiry_Email_CIC.docx
+
+# Resume drafts and one-off variants — don't ship every version publicly.
+CS_CV.pdf
+CV.pdf
+CV_MI.pdf
+Curriculum Vitae.pdf
+Emmanuel_Mdluli_Cybersecurity_Resume.pdf
+Final Resume Printout.pdf
+May 22.pdf
+Resume-G.pdf
+Resume template.docx
+S26ResumeV2.pdf
+S26Resumev3.docx
+S26Resumev3.pdf
+S26Resumev4_JDI.docx
+S26Resumev5_Vestcor.docx
+S26Resumev5_Vestcor.pdf
+S26ResumeV6.pdf
+S26_Resume.pdf
+S26Transcript.pdf
+
+# Images folder (personal reference images, not portfolio assets)
+Images/
