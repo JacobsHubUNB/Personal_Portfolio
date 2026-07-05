@@ -43,7 +43,7 @@ desktop.ini
 # Vercel
 .vercel
 
-# Claude Code local tool config (machine-specific paths, not project code)
+# Local AI tooling config (machine-specific, not project code)
 .claude/
 
 # Personal documents — keep cover letters and resume drafts out of public repo.

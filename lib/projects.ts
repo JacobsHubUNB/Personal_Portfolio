@@ -15,8 +15,8 @@ export const projects: Project[] = [
     slug: "engineering-drawing-review",
     name: "Engineering Drawing Review System",
     description:
-      "AI-integrated CAD reviewer using Claude Vision to detect missing design flaws such as dimensions, geometry errors, and unclear tolerances — rendering bounding-box pins directly on uploaded drawings. Multi-user collaboration with per-run analysis history.",
-    tech: ["React", "FastAPI", "Python", "Claude Vision", "SQLite", "JWT"],
+      "AI-integrated CAD reviewer using a multimodal vision LLM to detect missing design flaws such as dimensions, geometry errors, and unclear tolerances — rendering bounding-box pins directly on uploaded drawings. Multi-user collaboration with per-run analysis history.",
+    tech: ["React", "FastAPI", "Python", "Vision LLM", "SQLite", "JWT"],
     github: "https://github.com/JacobsHubUNB/Engineer-Drawing-Analyzer",
     demo: null,
     preview: "/assets/previews/engineering-drawing- reviewer.mp4",
@@ -26,9 +26,9 @@ export const projects: Project[] = [
     slug: "Claims-Copilot",
     name: "Claims Filing Copilot",
     description:
-      "AI-integrated insurance claims filing system using an agent parse, draft insurance claims from clients while requirning a human respresentitive to approve and submit the claim.",
-    tech: ["React", "FastAPI", "Python", "Claude Vision", "SQLite", "JWT"],
-    github: "https://github.com/JacobsHubUNB/Engineer-Drawing-Analyzer",
+      "AI-integrated insurance claims filing system using an agent to parse and draft insurance claims from clients, requiring a human representative to approve and submit the claim.",
+    tech: ["React", "FastAPI", "Python", "LLM Agent", "SQLite", "JWT"],
+    github: null,
     demo: null,
     preview: "/assets/previews/Claims Agent.mp4",
     poster: "/assets/posters/Claims Agent.png",
@@ -50,10 +50,9 @@ export const projects: Project[] = [
     description:
       "Multi-view airport management application with encrypted login authentication and role-based access control. Built on MVC architecture for modularity and separation of concerns.",
     tech: ["TypeScript", "SimpleKit", "Vite", "MVC"],
-    github: null,
+    github: "https://github.com/JacobsHubUNB/airport-management-system",
     demo: null,
     preview: "/assets/previews/airport-management.mp4",
     poster: "/assets/posters/Airport management system.png",
-    private: true,
   },
 ];

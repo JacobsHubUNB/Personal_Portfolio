@@ -55,10 +55,10 @@ const GROUPS: { title: string; items: string[] }[] = [
   {
     title: "Agentic AI Tooling",
     items: [
-      "Claude Code",
-      "Claude API",
-      "IDE-integrated assistants",
-      "LLM-driven code review",
+      "LLM APIs",
+      "AI-Assisted IDEs",
+      "Agentic Workflows",
+      "LLM-Driven Code Review",
     ],
   },
 ];
