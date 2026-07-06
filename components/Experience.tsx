@@ -15,7 +15,7 @@ const ITEMS: Item[] = [
     where: "Fredericton, NB",
     role: "Software Development Intern",
     org: "Steed Motors Inc",
-    body: "Paid multi-month retainer designing, developing, and maintaining bespoke software for a dealership — data visualizations, internal automation tools, and website maintenance. Integrating agentic AI tooling end-to-end across design, implementation, debugging, and refactoring. First deliverable: automated web testing with Python and Playwright.",
+    body: "Paid multi-month retainer designing, developing, and maintaining bespoke software for a dealership — data visualizations, internal automation tools, and website maintenance. Integrating agentic AI tooling end-to-end across design, implementation, debugging, and refactoring. Shipped automated web testing scripts (Python, Playwright); currently building a full-stack automation tool for inventory advertisement and tracking.",
   },
   {
     when: "Sep 2023 — Present",

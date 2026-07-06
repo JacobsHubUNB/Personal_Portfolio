@@ -9,6 +9,7 @@ const GROUPS: { title: string; items: string[] }[] = [
       "JavaScript",
       "Python",
       "Java",
+      "Kotlin",
       "C",
       "SQL",
       "PostgreSQL",
@@ -35,7 +36,8 @@ const GROUPS: { title: string; items: string[] }[] = [
       "JUnit",
       "Playwright",
       "Tailwind",
-      "SimpleKit"
+      "SimpleKit",
+      "Android"
     ],
   },
   {
