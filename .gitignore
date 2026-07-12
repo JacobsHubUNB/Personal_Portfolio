@@ -80,6 +80,8 @@ S26Resumev5_Vestcor.pdf
 S26ResumeV6.pdf
 S26_Resume.pdf
 S26Transcript.pdf
+# …except the one CV the site actually serves:
+!public/S26Resumev3.pdf
 
 # Images folder (personal reference images, not portfolio assets)
 Images/
