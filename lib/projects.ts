@@ -26,8 +26,8 @@ export const projects: Project[] = [
     slug: "Claims-Copilot",
     name: "Claims Filing Copilot",
     description:
-      "AI-integrated insurance claims filing system using an agent to parse and draft insurance claims from clients, requiring a human representative to approve and submit the claim.",
-    tech: ["React", "FastAPI", "Python", "LLM Agent", "SQLite", "JWT"],
+      "AI-integrated insurance claims assistant that ingests policy PDFs and drafts bilingual (EN/FR) response letters with exact clause citations — every draft requires a human representative's approval before submission, with a full audit trail of every retrieval, draft, and decision.",
+    tech: ["Next.js", "FastAPI", "Python", "PostgreSQL", "LLM Agent", "JWT"],
     github: null,
     demo: null,
     preview: "/assets/previews/Claims Agent.mp4",
