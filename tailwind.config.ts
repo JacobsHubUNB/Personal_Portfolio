@@ -1,10 +1,14 @@
 import type { Config } from "tailwindcss";
 
+// Anchor content globs to this file so they resolve no matter
+// which directory the dev server is started from
+const here = __dirname.replace(/\\/g, "/");
+
 const config: Config = {
   content: [
-    "./app/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-    "./lib/**/*.{ts,tsx}",
+    `${here}/app/**/*.{ts,tsx}`,
+    `${here}/components/**/*.{ts,tsx}`,
+    `${here}/lib/**/*.{ts,tsx}`,
   ],
   theme: {
     extend: {
