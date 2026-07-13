@@ -45,6 +45,17 @@ export const projects: Project[] = [
     poster: "/assets/posters/aws risk visualizer.png",
   },
   {
+    slug: "teamstrike",
+    name: "TeamStrike",
+    description:
+      "Turn-based tactics game written in C — two four-unit squads battle across a 10×10 grid to defend or destroy the central palace, with berserker and bulldozer unit abilities and a pathfinding AI opponent. The C game logic doubles as a JSON engine over stdin/stdout, driving a retro command-console web UI through a zero-dependency Node server.",
+    tech: ["C", "Node.js", "JavaScript", "HTML/CSS"],
+    github: "https://github.com/JacobsHubUNB/Team_Strike",
+    demo: null,
+    preview: "/assets/previews/teamstrike.mp4",
+    poster: "/assets/posters/Team Strike Poster.png",
+  },
+  {
     slug: "airport-management-system",
     name: "Airport Management System",
     description:
